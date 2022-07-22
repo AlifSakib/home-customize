@@ -1,0 +1,19 @@
+/* ?Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500&display=swap");
+
+/* ?Root */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(./images/home.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
